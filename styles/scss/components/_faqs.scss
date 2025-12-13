@@ -1,0 +1,39 @@
+.faqs {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+
+  details {
+    background: #d493ff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #f8f79d;
+    transition: 0.3s;
+
+    &:hover {
+      background: #d476ff;
+    }
+
+    &[open] {
+      background: white;
+      border-color: #bbb;
+    }
+
+    p {
+      margin-top: 12px;
+      line-height: 1.6;
+    }
+  }
+
+  summary {
+    font-weight: 600;
+    font-size: 1.1rem;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+}

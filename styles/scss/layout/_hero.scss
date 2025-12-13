@@ -1,0 +1,27 @@
+.hero {
+  height: 80vh;
+  background-image: url(../assets/Montañas-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+
+  .hero-text {
+    h1 {
+      font-size: 60px;
+      color: white;
+      font-weight: 700;
+
+      span {
+        color: $secondary;
+      }
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 20px;
+      color: #e5e5e5;
+    }
+  }
+}

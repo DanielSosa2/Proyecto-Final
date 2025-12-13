@@ -1,0 +1,21 @@
+.btn {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: $secondary;
+  color: #000;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn2 {
+  display: block;
+  margin: 20px auto;
+  width: 120px;
+  padding: 10px;
+  background-color: $primary;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
