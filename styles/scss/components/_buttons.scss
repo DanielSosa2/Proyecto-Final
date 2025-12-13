@@ -1,21 +1,28 @@
-.btn {
-  margin-top: 20px;
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: $secondary;
-  color: #000;
+@use '../abstracts/variables';
+
+.btn-base {
   border-radius: 10px;
   font-weight: bold;
   text-decoration: none;
 }
 
+.btn {
+  @extend .btn-base;
+
+  margin-top: 20px;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: variables.$secondary;
+  color: #000;
+}
+
 .btn2 {
+  @extend .btn-base;
+
   display: block;
   margin: 20px auto;
   width: 120px;
   padding: 10px;
-  background-color: $primary;
+  background-color: variables.$primary;
   color: white;
-  border-radius: 10px;
-  text-decoration: none;
 }

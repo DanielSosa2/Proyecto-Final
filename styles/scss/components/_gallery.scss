@@ -1,3 +1,5 @@
+@use '../abstracts/mixins';
+
 .galeria {
   padding: 60px 40px;
   text-align: center;
@@ -11,7 +13,7 @@
 
   &-item {
     overflow: hidden;
-    border-radius: 14px;
+    @include mixins.card-style(14px);
 
     img {
       width: 100%;

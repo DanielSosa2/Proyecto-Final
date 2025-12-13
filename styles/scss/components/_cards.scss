@@ -1,3 +1,6 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -6,10 +9,10 @@
 
 .card {
   background: white;
-  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
   transition: transform .3s;
+
+  @include mixins.card-style(16px);
 
   &:hover {
     transform: translateY(-8px);
@@ -24,7 +27,7 @@
   h3 {
     font-size: 26px;
     margin: 15px 0;
-    color: $primary;
+    color: variables.$primary;
   }
 
   p {
