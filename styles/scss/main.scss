@@ -1,4 +1,5 @@
 @use 'abstracts/variables';
+@use 'abstracts/mixins';
 
 @use 'base/reset';
 @use 'base/base';
@@ -12,4 +13,8 @@
 @use 'components/gallery';
 @use 'components/faqs';
 
-@use 'pages/galeria';
+@use 'pages/home';
+@use 'pages/caminatas';
+@use 'pages/contacto';
+@use 'pages/sobremi';
+

@@ -1,3 +1,9 @@
+@use '../abstracts/variables' as v;
+
 body {
-  background-color: $bg-general;
+  background-color: v.$bg-general;
+}
+
+.animate__animated {
+  animation-duration: 1.2s;
 }

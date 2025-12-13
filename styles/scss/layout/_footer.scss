@@ -1,6 +1,7 @@
+@use '../abstracts/variables';
 footer {
   padding: 20px;
   text-align: center;
-  background-color: $primary;
+  background-color: variables.$primary;
   color: white;
 }

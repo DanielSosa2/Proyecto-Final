@@ -1,4 +1,7 @@
+@use '../abstracts/variables';
+
 /* ----------- TIPOGRAFÍAS ----------- */
+
 body {
   font-family: $font-main;
   color: $text-color;
@@ -6,6 +9,6 @@ body {
 
 h2 {
   font-size: 3rem;
-  color: $primary;
+  color: variables.$primary;
   text-align: center;
 }

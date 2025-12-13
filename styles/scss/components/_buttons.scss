@@ -20,9 +20,11 @@
   @extend .btn-base;
 
   display: block;
-  margin: 20px auto;
+  margin: 20px auto 0;
   width: 120px;
   padding: 10px;
   background-color: variables.$primary;
   color: white;
+  text-align: center;
+  
 }
