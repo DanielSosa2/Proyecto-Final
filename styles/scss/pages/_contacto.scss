@@ -1,31 +1,31 @@
 @use '../abstracts/variables';
 
 .contacto {
-  padding: 60px 20px;
-  text-align: center;
+    padding: 60px 20px;
+    text-align: center;
 
-  h2 {
-    color: variables.$primary;
-    margin-bottom: 20px;
-  }
+    h2 {
+        color: variables.$primary;
+        margin-bottom: 20px;
+    }
 
-  .intro {
-    max-width: 600px;
-    margin: 0 auto 25px;
-  }
+    .intro {
+        max-width: 600px;
+        margin: 0 auto 25px;
+    }
 }
 
 .contacto-opciones {
-  p {
-    margin-top: 15px;
-  }
+    p {
+        margin-top: 15px;
+    }
 }
 
 .contacto-container {
-  margin: 0 auto;
-  text-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .mapa-iframe {
-  border-radius: 10px;
+    border-radius: 10px;
 }
