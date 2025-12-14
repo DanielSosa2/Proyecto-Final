@@ -10,12 +10,11 @@
     gap: 40px;
     align-items: center;
 
-
-// RESPONSIVE
-  
+    
     @media (max-width: 576px) {
       flex-direction: column;
       gap: 20px;
+      text-align: center;
     }
 
     .sobre-mi-texto {
@@ -30,6 +29,11 @@
         color: variables.$primary;
         margin-top: 25px;
       }
+
+     
+      @media (max-width: 576px) {
+        text-align: center;
+      }
     }
 
     .sobre-mi-imagen {
@@ -37,7 +41,8 @@
       text-align: center;
 
       img {
-        max-width: 100%;
+        width: 100%; 
+        max-width: 400px; 
         border-radius: 14px;
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
       }
@@ -51,6 +56,14 @@
 
     li {
       margin-bottom: 8px;
+    }
+
+
+    @media (max-width: 576px) {
+      text-align: center;
+      ul {
+        padding-left: 0;
+      }
     }
   }
 }
